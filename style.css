@@ -1,0 +1,77 @@
+@font-face {
+    src: url(Roboto-Bold.ttf);
+    font-family: boldfont;
+}
+
+@font-face {
+    src: url(Roboto-Light.ttf);
+    font-family: lightfont;
+}
+
+body {
+    margin: 0;
+    background-color: #2F2F2F;
+    overflow-x: hidden;
+}
+
+.title {
+    position: relative;
+    top: -840px;
+    
+    font-family: boldfont;
+    font-size: 48px;
+    text-align: center;
+    
+    color: white;
+}
+
+.undertitle {
+    position: relative;
+    top: -870px;
+    
+    font-family: lightfont;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 100;
+    
+    color: white;
+}
+
+.description {
+    background-color: #2F2F2F;
+    position: relative;
+    
+    color: white;
+    
+}
+
+.description-title {
+    position: relative;
+    top: -190px;
+    left: 20px;
+    
+    font-family: boldfont;
+    font-size: 30px;
+}
+
+.description-info {
+    position: relative;
+    top: -235px;
+    left: 20px;
+    
+    font-family: lightfont;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.hero-title {
+    position: relative;
+    top: -410px;
+    left: 200px;
+}
+
+.hero-desc {
+    position: relative;
+    top: -470px;
+    left: 200px;
+}
